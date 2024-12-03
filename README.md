@@ -3,7 +3,10 @@ A python gui for weblink(P2P web chat and file transfer, file synchronization ap
 
 ## 使用方法
 
+- 下载npm和caddy。caddy.exe直接放在本目录下即可
 - 首先，到两个子项目目录下分别运行 ```npm install``` （或使用cnpm）
+- 随便安装一个python，用到tkinter、subprocess、threading、socket都是自带包
+- ```python main.py```
 - 然后进行配置，可选用网上的stun服务器和websocket服务器，也可使用本地的
 - 如果使用本地，则[聊天软件覆盖的局域网地址:端口]得到本地的stun和websocket服务器配置地址
 - 示例如图所示
