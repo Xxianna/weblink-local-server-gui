@@ -1,8 +1,14 @@
 # weblink-local-server-gui
 A python gui for weblink(P2P web chat and file transfer, file synchronization application using WebRTC)
 
+- 本项目只提供一个启动服务的工具
+- 原项目：https://github.com/99percentpeople/weblink.git
+- 原作者bilibili：https://space.bilibili.com/10085789
+- 原项目介绍视频（之一）：https://www.bilibili.com/video/BV1F6DUYBEuT
+
 ## 使用方法
 
+- ```git clone --recurse-submodules https://github.com/Xxianna/weblink-local-server-gui.git```
 - 下载npm和caddy。caddy.exe直接放在本目录下即可
 - 首先，到两个子项目目录下分别运行 ```npm install``` （或使用cnpm）
 - 随便安装一个python，用到tkinter、subprocess、threading、socket都是自带包
