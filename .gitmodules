@@ -1,3 +1,6 @@
 [submodule "weblink"]
 	path = weblink
 	url = https://github.com/Xxianna/weblink.git
+[submodule "weblink-ws-server"]
+	path = weblink-ws-server
+	url = https://github.com/Xxianna/weblink-ws-server.git
