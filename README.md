@@ -12,6 +12,7 @@ A python gui for weblink(P2P web chat and file transfer, file synchronization ap
 - 示例如图所示
 - 配置完成后，先点击npm build按钮，固化配置到源码，再启动服务即可。三个服务都启动后，可访问聊天软件覆盖的局域网地址以访问聊天页面
 - 更新：聊天端口也可设置了
+- bug：目前终止无法实际生效，需要在任务管理器手动搜索caddy bun stun进程去终止
 
 ![alt text](image.png)
 ![alt text](image-1.png)
