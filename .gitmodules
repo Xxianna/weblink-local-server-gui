@@ -1,0 +1,3 @@
+[submodule "weblink"]
+	path = weblink
+	url = https://github.com/Xxianna/weblink.git
