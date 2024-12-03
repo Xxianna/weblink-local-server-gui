@@ -215,7 +215,7 @@ class STUNApp(tk.Tk):
 
     def toggle_websocket_server(self):
         if self.websocket_start_stop_button['text'] == "启动":
-            self.websocket_process = self.start_service('weblink-ws-server\\node_modules\\@oven/bun-windows-x64-baseline\\bin\\bun run weblink-ws-server/dist/index.js',
+            self.websocket_process = self.start_service('cd weblink-ws-server && node_modules\\@oven\\bun-windows-x64-baseline\\bin\\bun run dist/index.js',
                                                        'WebSocket服务器已启动', self.websocket_status_label)
             self.websocket_start_stop_button.config(text="终止")
         else:
