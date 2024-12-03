@@ -1,2 +1,14 @@
 # weblink-local-server-gui
 A python gui for weblink(P2P web chat and file transfer, file synchronization application using WebRTC)
+
+## 使用方法
+
+- 首先，到两个子项目目录下分别运行 ```npm install``` （或使用cnpm）
+- 然后进行配置，可选用网上的stun服务器和websocket服务器，也可使用本地的
+- 如果使用本地，则[聊天软件覆盖的局域网地址:端口]得到本地的stun和websocket服务器配置地址
+- 示例如图所示
+- 配置完成后，先点击npm build按钮，固化配置到源码，再启动服务即可。三个服务都启动后，可访问聊天软件覆盖的局域网地址以访问聊天页面
+- 更新：聊天端口也可设置了
+
+![alt text](image.png)
+![alt text](image-1.png)
